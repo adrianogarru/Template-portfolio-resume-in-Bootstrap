@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Professional portfolio template">
+  <meta name="keywords" content="adriano garruba, cv adriano garruba">
+  <meta name="author" content="Adriano Garruba">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Portfolio Adriano Garruba</title>
+  <!-- Bootstrap CSS -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font-Awesome -->
+  <link href="fontawesome/css/all.css" rel="stylesheet">
+    <!--Font-Awesome load all styles -->
+  <script defer src="fontawesome/js/all.js"></script>
+  <link href="fontawesome/css/fontawesome.css" rel="stylesheet">
+  <link href="fontawesome/css/brands.css" rel="stylesheet">
+  <link href="fontawesome/css/solid.css" rel="stylesheet">
+  <!-- Custom CSS - all the classes start with: customclass are not Bootstrap classes but customized-->
+  <link href="bootstrap/css/custom.css" rel="stylesheet">
+</head>
+<body class="customclass-body">
+  <!-- Start Header -->
+  <div class="container shadow p-3 mb-5 bg-white">
+    <div class="row">
+      <div class="col-md-3 col-sm-4 text-center"><img src="img/0.jpg" class="rounded-circle img-fluid"
+          alt="Profile picture"></div>
+      <div class="col-md-6 col-sm-5">
+        <h1 class="text-uppercase customclass-sm-center" >Adriano Garruba</h1>
+        <!--Name Surname -->
+        <h4 class="customclass-sm-center">Product Support Engineer</h4>
+        <!--Profession -->
+        <br>
+        <div class="row">
+          <ul class="list-group list-group-horizontal customclass-no-dots-list customclass-sm-center">
+            <li class="customclass-right-margin"><a href="https://github.com/adrianogarru" target="_blank"><i
+                  class="fab fa-github fa-3x customclass-git-icon customclass-git-hover"></i></a></li>
+            <li class="customclass-right-margin"><a href="https://www.linkedin.com/in/adriano-garruba/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a></li>
+            <li class="customclass-right-margin"><a href="https://www.facebook.com/adriano.garruba" target="_blank"><i class="fab fa-facebook fa-3x"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col">
+      </div>
+    </div>
+    <!-- End Header-->
+    <br>
+    <!-- Start Nav -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+    </nav>
+    <!--END Nav-->
+    <br>
+    <!--Start Contact form-->
+    <form id="contact-form" method="post" action="contact.php" role="form">
+      <div class="messages"></div>
+      <div class="controls">
+          <div class="row">
+              <div class="col-md-6">
+                  <div class="form-group">
+                      <label for="form_name">Firstname *</label>
+                      <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                      <div class="help-block with-errors"></div>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="form-group">
+                      <label for="form_lastname">Lastname *</label>
+                      <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                      <div class="help-block with-errors"></div>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-6">
+                  <div class="form-group">
+                      <label for="form_email">Email *</label>
+                      <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                      <div class="help-block with-errors"></div>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="form-group">
+                      <label for="form_need">Please specify your need *</label>
+                      <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                          <option value=""></option>
+                          <option value="Request quotation">Bug on the site</option>
+                          <option value="Request order status">Interest on my profile</option>
+                          <option value="Request copy of an invoice">Others</option>
+                      </select>
+                      <div class="help-block with-errors"></div>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="form-group">
+                      <label for="form_message">Message *</label>
+                      <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                      <div class="help-block with-errors"></div>
+                  </div>
+              </div>
+              <div class="col-md-12">
+                  <input type="submit" class="btn btn-success btn-send" value="Send message">
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-12">
+                  <p class="text-muted">
+                      <strong>*</strong> These fields are required.</p>
+              </div>
+          </div>
+      </div>
+  </form>
+    <!--Start footer-->
+    <div class="row border">
+      <div class="footer-copyright text-center py-3"><p class="text-muted">Developed by:
+        <a href="https://adrianogarruba.com">Adriano Garruba</a> Contact form template by
+          <a href="https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form" target="_blank">Bootstrapious</a>.</p>
+      </div>
+    </div>
+    <!--END footer-->
+  </div>
+  <!--End container-->
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+</html>

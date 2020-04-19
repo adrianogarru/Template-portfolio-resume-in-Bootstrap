@@ -1,0 +1,30 @@
+/* Custom CSS used to adjust style */
+
+/* Marging the top of the page from the edge of browswer */
+.customclass-body {
+ margin-top: 15px;
+}
+
+.customclass-right-margin {
+    margin-left: 15px;
+    margin-right: 10px;
+}
+.customclass-no-dots-list {
+    list-style-type: none;
+}
+.customclass-git-icon {
+    color: black;
+}
+.customclass-git-hover:hover {
+    color: black;
+    opacity: 0.6;
+}
+/* Some space and center to content in the header under 575px width */
+
+@media (max-width: 575px) {
+    .customclass-sm-center{
+        text-align: center;
+        margin: 0 auto;
+        padding: 10px;
+    }
+}
